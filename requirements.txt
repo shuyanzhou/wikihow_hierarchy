@@ -1,0 +1,4 @@
+tqdm
+torch==1.7.0
+transformers
+numpy

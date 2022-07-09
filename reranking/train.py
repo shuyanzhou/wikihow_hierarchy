@@ -7,7 +7,7 @@ import torch.nn.functional as F
 import json
 from transformers import BertConfig, BertTokenizer, BertModel, DebertaConfig, DebertaModel, DebertaTokenizer
 from constants import logger, TQDM_DISABLE, WANDB_DISABLE
-from utils import get_optimizer, save_model, restore
+from reranking.utils import get_optimizer, save_model, restore
 from tqdm import tqdm
 import wandb
 import argparse

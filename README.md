@@ -14,7 +14,7 @@ We hope this hierarchical KB could
 ![overeview](main.png)
 
 ## Resource
-* Please download the resources from [this]() link
+* Please download the resources from [this](https://drive.google.com/file/d/1uy-GNINlC2Q8sO8wORvbLdMv9yb8Hfg3/view?usp=sharing) link
 * `data/wikihow_prediction.json`: the dump of all our predictions. 
 Each entry has a step and the predicted linked goals. The predictions are ranked the score from the reranker. If the top-1 prediction is `[unused2]`, the step is *unlinkable*. 
 * `data/annotated_step_goal.json`: the steps that have hyper-links. These hyper-links are created by wikiHow contributors. 
